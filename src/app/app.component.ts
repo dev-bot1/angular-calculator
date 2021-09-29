@@ -44,7 +44,7 @@ export class AppComponent {
   }
   getAnswer() {
     this.calculationString = this.mainDisplayText;
-    if(this.operator === '+' ||this.operator=== '-'||this.operator=== '*'||this.operator=== '/')
+    if(this.operator === '+' ||this.operator=== '-'||this.operator=== 'x'||this.operator=== '/')
 
     {this.operand2 = parseFloat(this.mainDisplayText.split(this.operator)[1]);}
 
